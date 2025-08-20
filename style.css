@@ -1,0 +1,56 @@
+body {
+    background-color: #EEE;
+    font-family: 'roboto', sans-serif;
+    font-weight: 500;
+}
+
+span {
+    color: tomato;
+    font-size: 2rem;
+}
+
+.greeting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 4rem;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    gap: 3rem;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 4rem;
+    text-align: center;
+}
+
+.form input {
+    border: none;
+    border-radius: 100px;
+    height: 3rem;
+    text-align: center;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+.answer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.answer {
+    background-color: #FFF;
+    padding: 2rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    overflow: hidden;
+    border-radius: 100px;
+    box-shadow: 10px 1px 100px rgba(0, 0, 0, 0.2);
+}
