@@ -9,9 +9,22 @@
     <form method='get' action="results.php" role="form" >
         <label for="frase">Pone la frase secreta</label>
         <input name='frase' id='frase' type="text">
-        
-        <label for="check">Aceptas TyC</label>
-        <input type="checkbox" name="check" >
+    <br>
+    <br>
+    <label for="name">Nombre</label>
+        <input type="text" name="name" >
+    <br>
+    <br>
+        <label for="lastname">Apellido</label>
+        <input type="text" name="lastname" >
+    <br>
+    <br>
+        <label for="age">Edad</label>
+        <input type="text" name="age" >
+    <br>
+    <br>
+        <label for="pass">Contraseña</label>
+        <input type="password" name="pass">
     </form>
 </body>
 </html>
