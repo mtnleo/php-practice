@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    background-color: #777;
+    color: white;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+}
+
+article {
+    border: 1px black solid;
+    border-radius: 1rem;
+    padding: 1rem;
+
+}
+
+article:first-child {
+    font-weight: 800;
+    font-size: larger;
+}
+  
+.articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 70%;
+}

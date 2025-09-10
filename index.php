@@ -14,7 +14,7 @@
         	
 
 			if ($user_guess > $secret_number) {
-					$message = "<h2 style='color: red'>" . 'The number is smaller than ' . $user_guess . ' ' . ' </h2>';
+				$message = "<h2 style='color: red'>" . 'The number is smaller than ' . $user_guess . ' ' . ' </h2>';
 
 			} elseif ($user_guess < $secret_number) {
 				
